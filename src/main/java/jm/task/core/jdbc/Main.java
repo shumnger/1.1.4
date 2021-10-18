@@ -13,7 +13,7 @@ public class Main {
         User user2 = new User("Aynura", "Sadyrova", (byte)23);
         User user3 = new User("Kamil", "Nagaev", (byte)44);
         User user4 = new User("Martin", "King", (byte)74);
-        User user5 = new User("Mtin", "Kng", (byte)4);
+
         userService.createUsersTable();
 
         userService.saveUser(user1.getName(), user1.getLastName(), user1.getAge());
